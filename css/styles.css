@@ -4,13 +4,18 @@
 
 header {
     position: relative;
-    border-color: #06ffbb;
+    border-color: purple;
     background-color: #06D6A0;
+    font-family: sans-serif;
+    /*margin-bottom:50px;*/
 }
 
 h1 {
-    font-size: 2em;
+    padding-left: 1em;
+    font-size: 1.5em;
     font-weight: bold;
+    font-family: sans-serif;
+    color: white;
 
 }
 .menu-item {
@@ -27,4 +32,34 @@ ul li {
   padding: 10px;
   font-size: 20px;
   display: inline-block;
+}
+
+container-a {
+  max-width: 900px;
+  margin:auto;
+}
+
+.hero {
+  display: block;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+
+.cats {
+
+}
+
+
+
+footer {
+  font-size: 1.2em;
+  color: black;
+  padding: 1em;
+  text-align: right;
+  position: relative;
+  border-color: purple;
+  background-color: #06D6A0;
+  font-family: sans-serif;
 }
