@@ -37,6 +37,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 nav ul li {
@@ -85,13 +86,17 @@ nav ul li {
 
 .wrapper {
   overflow: hidden;
+  /*max-width: 900px;*/
   /*background-color: rgb(242,242,242);*/
 }
 
 .wrapper-item {
+  /*border-width: 5%;*/
+  border: 3px solid black;
   float:left;
-  width: 32%;
-  padding:10px;
+  width: 30%;
+  margin: 10px;
+  /*padding:10px;*/
 }
 
 .redding {
