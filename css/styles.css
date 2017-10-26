@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 header {
     position: relative;
     border-color: purple;
@@ -28,30 +32,62 @@ ul {
   list-style-type: none;
 }
 
-ul li {
+nav ul li {
   padding: 10px;
   font-size: 20px;
   display: inline-block;
 }
 
-container-a {
+.container-a {
   max-width: 900px;
   margin:auto;
 }
 
 .hero {
+  width:100%;
   display: block;
+  overflow: hidden;
+  background-color: rgb(25,78,123);
+  color: white;
+
 }
 
 .hero-image {
+  float: left;
+  width: 60%;
   max-width: 100%;
 }
 
-.cats {
-
+.hero-content {
+    text-align: center;
+    float: left;
+    width: 40%;
+    font-size: 25px;
 }
 
+.cats {
+  padding: 2em 1em 2em 1em;
+  background-color: rgb(254,211,75);
+}
 
+.products {
+  padding: 2em 1em 2em 1em;
+  background-color: rgb(242, 242, 242);
+}
+
+.redding {
+    float: left;
+    width: 33.33333%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+}
+
+.about {
+  color: white;
+  padding: 2em 1em;
+  background-color: rgb(25,73,123)
+}
 
 footer {
   font-size: 1.2em;
