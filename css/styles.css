@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    border-color: #06ffbb;
+    background-color: #06D6A0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.menu-item {
+  display: inline-block;
+}
+nav {
+  float: right;
+}
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
