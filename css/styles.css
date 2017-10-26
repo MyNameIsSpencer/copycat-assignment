@@ -28,8 +28,15 @@ h1 {
 nav {
   float: right;
 }
+
+.navbar {
+  padding-top: 10px;
+}
+
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -73,6 +80,18 @@ nav ul li {
 .products {
   padding: 2em 1em 2em 1em;
   background-color: rgb(242, 242, 242);
+  /*overflow: hidden;*/
+}
+
+.wrapper {
+  overflow: hidden;
+  /*background-color: rgb(242,242,242);*/
+}
+
+.wrapper-item {
+  float:left;
+  width: 32%;
+  padding:10px;
 }
 
 .redding {
